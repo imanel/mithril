@@ -71,6 +71,10 @@ GEM
   specs:
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
+    devise (1.2.1)
+      bcrypt-ruby (~> 2.1.2)
+      orm_adapter (~> 0.0.3)
+      warden (~> 1.0.3)
     diff-lcs (1.1.2)
     erubis (2.7.0)
     hike (0.7.1)
@@ -81,6 +85,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    orm_adapter (0.0.4)
     polyglot (0.3.1)
     rack-cache (1.0.1)
       rack (>= 0.4)
@@ -110,12 +115,15 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.26)
+    warden (1.0.3)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   arel!
+  devise
   rack!
   rails!
   rspec-rails
