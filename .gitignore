@@ -1,6 +1,6 @@
 .bundle/
 log/*.log
 pkg/
-spec/dummy/db/*.sqlite3
-spec/dummy/log/*.log
-spec/dummy/tmp/
+spec/rails_app/db/*.sqlite3
+spec/rails_app/log/*.log
+spec/rails_app/tmp/
